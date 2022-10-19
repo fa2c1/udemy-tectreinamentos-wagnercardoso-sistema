@@ -24,4 +24,4 @@
 		header('Location: logar.php');
 		exit();
 	}
-?>
+	

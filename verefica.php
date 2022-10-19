@@ -1,13 +1,6 @@
 <?php
-
     session_start();
-
-       if (!$session['usuario']) {
-            
+       if (!$session['usuario']) {            
         header('index.php');
-
-        exit();
-        
+        exit();        
     }
-		
-?>
